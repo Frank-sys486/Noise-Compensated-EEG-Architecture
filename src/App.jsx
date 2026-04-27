@@ -221,7 +221,13 @@ function OverviewView({ lastConfirmed, liveFrame }) {
             </p>
           </div>
           <div style={{ textAlign: 'right' }}>
-             <button className="btn btn-primary" style={{ background: 'var(--primary-light)', border: 'none' }}>System Manual</button>
+             <button 
+              className="btn btn-primary" 
+              style={{ background: 'var(--primary-light)', border: 'none' }}
+              onClick={() => alert('Accessing Secure Clinical Documentation and System Manual (v0.4.2)...')}
+             >
+               System Manual
+             </button>
           </div>
         </div>
       </div>
